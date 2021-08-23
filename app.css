@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(138, 96, 59);
+    background-image: linear-gradient(to right, rgb(191, 155, 108), rgb(138, 96, 59));
+}
+#ghost {
+    z-index: 999999999999999;
+}
+div.marquee {
+    white-space:nowrap;
+    overflow:hidden;
+}
+div.marquee > div.marquee-text {
+    white-space:nowrap;
+    width:auto;
+    color: white;
+    opacity: 0.2;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+
+    position: relative;
+}
+#rcorners1 {
+    border-radius: 25px;
+    background: rgb(158, 186, 134);
+    border: 2px solid rgb(138, 96, 59);
+    padding: 20px; 
+    width: 450px;
+    height: 175px;  
+    position: absolute;
+    z-index: 999998;
+
+
+
+  }
+
+#rcorners2 {
+    border-radius: 25px;
+    background: rgb(63, 35, 11);
+    border: 2px solid rgb(63, 35, 11);
+    padding: 20px; 
+    width: 450px;
+    height: 175px; 
+    z-index: 999999;
+    position: absolute;
+
+  }
